@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Domača naloga RGTI1</title>
+</head>
+<body>
+    <style>
+        textarea {
+            display: block;
+            box-sizing: border-box;
+            width: 512px;
+            height: 300px;
+        }
+    </style>
+    <canvas width="512" height="512"></canvas>
+    <textarea placeholder="JSON input"></textarea>
+    <p><b>Interaction:</b></p>
+    <p>Object:</p>
+    <ul>
+      <li>w, a, s, d - translation</li>
+      <li>q, e - rotation</li>
+      <li>z, x - scale</li>
+    </ul>
+    <p>Kamera: </p>
+    <ul>
+      <li>i, j, k, l - translation</li>
+      <li>u, o - rotation</li>
+      <li>scroll mouse - scale</li>
+    </ul>
+    <script type="module" src="main.mjs"></script>
+</html>
