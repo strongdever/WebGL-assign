@@ -1,6 +1,6 @@
-import { Renderer } from './Renderer.mjs';
-import { Node } from './Node.mjs';
-import { multiply, rotationX } from './Matrix.mjs';
+import { Renderer } from './Renderer.js';
+import { Node } from './Node.js';
+import { multiply, rotationX } from './Matrix.js';
 
 const input = document.querySelector('textarea');
 const canvas = document.querySelector('canvas');

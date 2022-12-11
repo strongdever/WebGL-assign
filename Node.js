@@ -1,4 +1,4 @@
-import * as Matrix from './Matrix.mjs';
+import * as Matrix from './Matrix.js';
 export class Node {
 
     constructor() {
